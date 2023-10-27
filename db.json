@@ -1,0 +1,117 @@
+{
+  "projects": [
+    {
+      "name": "Security Compliance 2.0",
+      "budget": "6000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 3933,
+      "services": [
+        {
+          "name": "jdjsjsjj",
+          "cost": "3933",
+          "description": "sksksk",
+          "id": "0d35961e-0dda-4f0e-982b-3fd9bb5bdd3e"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Access Control",
+      "budget": "80000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "Log Tracking",
+      "budget": "120000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "Digital Space",
+      "budget": "5000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
+    },
+    {
+      "name": "Planejamento projeto Clamp",
+      "budget": "10000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 8
+    },
+    {
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "name": "Assistência técnica",
+      "budget": "2000",
+      "cost": 0,
+      "services": [],
+      "id": 9
+    },
+    {
+      "name": "Design Influencer",
+      "budget": "7300",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 10
+    },
+    {
+      "name": "Reparos Tech",
+      "budget": "8550",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
