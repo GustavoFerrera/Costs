@@ -23,7 +23,7 @@ function NewProject () {
             // redirecionar
             history('/projects', { state: { message: 'Projeto criado com sucesso!' }})
         })
-        .catch(err => console.log(err))
+        .catch((err) => console.log(err))
     }
 
     return (
