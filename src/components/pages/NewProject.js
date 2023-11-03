@@ -21,7 +21,7 @@ function NewProject () {
         .then((data) => {
             console.log(data)
             // redirecionar
-            history('/projects', { state: { message: 'Projeto criado com sucesso!' }})
+            history('https://json-serv.vercel.app/projects', { state: { message: 'Projeto criado com sucesso!' }})
         })
         .catch((err) => console.log(err))
     }
