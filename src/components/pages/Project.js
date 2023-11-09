@@ -21,7 +21,7 @@ function Project() {
 
     useEffect(() => {
         setTimeout(() => {
-                fetch(`https://json-serv.vercel.app/projects/${id}`,{
+                fetch(`https://json-serv.vercel.app/${id}`,{
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
