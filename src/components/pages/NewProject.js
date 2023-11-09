@@ -10,7 +10,7 @@ function NewProject () {
         project.cost = 0
         project.services = []
 
-        fetch("https://json-serv.vercel.app/projects", {
+        fetch("https://json-serv.vercel.app/", {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json',
@@ -21,7 +21,7 @@ function NewProject () {
         .then((data) => {
             console.log(data)
             // redirecionar
-            history('https://json-serv.vercel.app/projects', { state: { message: 'Projeto criado com sucesso!' }})
+            history('https://json-serv.vercel.app/', { state: { message: 'Projeto criado com sucesso!' }})
         })
         .catch((err) => console.log(err))
     }
