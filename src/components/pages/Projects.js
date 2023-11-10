@@ -37,7 +37,7 @@ function Projects() {
     }, [])
 
     function removeProject(id) {
-        fetch(`https://json-serv.vercel.app/${id}`, {
+        fetch(`https://json-serv.vercel.app/projects/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'
