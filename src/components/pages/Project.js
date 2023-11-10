@@ -102,7 +102,7 @@ function Project() {
         projectUpdated.services = servicesUpdated
         projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
 
-        fetch(`https://json-serv.vercel.app/${projectUpdated.id}`,{
+        fetch(`https://json-serv.vercel.app/projects/${projectUpdated.id}`,{
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
